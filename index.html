@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name='apple-touch-fullscreen' content='yes'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no"/>
+<meta name="format-detection" content="address=no"/>
+<meta name="language" content="zh-CN" />
+<title>关鑫贤个人网站 - 框架DEMO</title>
+<script src="javascripts/libs/zepto.js"></script>
+<script src="javascripts/libs/fx.js"></script>
+<script src="javascripts/libs/json.js"></script>
+<script src="javascripts/libs/iscroll.js"></script>
+<script src="javascripts/utils.js"></script>
+<script src="javascripts/handlers.js"></script>
+
+<link href="stylesheets/main-360.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/main-720.css" rel="stylesheet" type="text/css" media="screen and (-webkit-device-pixel-ratio: 1.5)">
+<link href="stylesheets/main-720.css" rel="stylesheet" type="text/css" media="screen and (-webkit-device-pixel-ratio: 2)">
+<link href="stylesheets/main-1080.css" rel="stylesheet" type="text/css" media="screen and (-webkit-device-pixel-ratio: 3)">
+        
+<script>
+if (isAndroid) {
+    document.addEventListener('deviceready', onDeviceReady, false);
+    document.write('<link href="stylesheets/android.css" rel="stylesheet" type="text/css">');
+}
+</script>
+
+<script id="tmpl_main" type="text/template">
+    <div class="frame main">
+        <div id="mainbodycontainer">
+            <div id="mainbody">
+                <div class="main_face"></div>
+                <div class="main_btn_work link" rel="#work">作品</div>
+                <div class="main_btn_mood link" rel="#mood">心情</div>
+                <div class="main_btn_photo link" rel="#photo">照片</div>
+                <div class="main_btn_info link" rel="#info">资料</div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script id="tmpl_work" type="text/template">
+    <div class="frame">
+        <div id="header">
+            <div class="title">作品</div>
+            <div class="backbtn"></div>
+            <div class="headerbtn"><div class="menubtn"></div></div>
+        </div>
+        <div id="mbodycontainer">
+            <div id="mbody">
+            </div>
+        </div>
+    </div>
+</script>
+
+<script id="tmpl_mood" type="text/template">
+    <div class="frame">
+        <div id="header">
+            <div class="title">心情</div>
+            <div class="backbtn"></div>
+            <div class="headerbtn"><div class="menubtn"></div></div>
+        </div>
+        <div id="mbodycontainer">
+            <div id="mbody">
+            </div>
+        </div>
+    </div>
+</script>
+
+<script id="tmpl_photo" type="text/template">
+    <div class="frame">
+        <div id="header">
+            <div class="title">照片</div>
+            <div class="backbtn"></div>
+            <div class="headerbtn"><div class="menubtn"></div></div>
+        </div>
+        <div id="mbodycontainer">
+            <div id="mbody">
+            </div>
+        </div>
+    </div>
+</script>
+
+<script id="tmpl_info" type="text/template">
+    <div class="frame">
+        <div id="header">
+            <div class="title">资料</div>
+            <div class="backbtn"></div>
+            <div class="headerbtn"><div class="menubtn"></div></div>
+        </div>
+        <div id="mbodycontainer">
+            <div id="mbody">
+            </div>
+        </div>
+    </div>
+</script>
+
+<script id="tmpl_detail" type="text/template">
+    <div class="frame">
+        <div id="header">
+            <div class="title">详情</div>
+            <div class="backbtn"></div>
+            <div class="headerbtn"><div class="menubtn"></div></div>
+        </div>
+        <div id="mbodycontainer">
+            <div id="mbody">
+                <ul class="list_ul">
+                    <li>　　详情内容，详情内容详情内容详情内容详情内容。详情内容详情内容详情内容，详情内容详情内容详情内容详情内容详情内容详情内容。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</script>
+
+</head>
+<body onload="onBodyLoad()">
+    <div class="loading">
+        <img src="images/main/loading.gif"/><strong>加载中</strong>
+    </div>
+    <div class="menulayout"></div>
+    <div id="content">
+        <div class="frame"></div>
+    </div>
+    <div class="bmenulayout">
+        <span>菜单演示</span>
+    </div>
+</body>
+</html>

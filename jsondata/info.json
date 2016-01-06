@@ -1,0 +1,21 @@
+{
+    "Result" : 0,
+    "Data" : [
+        {
+            "title" : "写在前面",
+            "content" : "技能无止境，经验诚可贵，人生之路，所走所见所闻，均是财富。小小程序猿，坚持走自己的路，哪怕遍体鳞伤，至少，目前仍在前行。"
+        },
+        {
+            "title" : "基本资料",
+            "content" : "<label>姓名：关鑫贤</label><label>别名：Andrew/COoL</label><label>民族：汉族</label><label>性别：男</label><label>身高：174cm</label><label>体重：60kg</label><label>血型：AB</label><label>婚姻：已婚</label><label>籍贯：开平</label><label>现居：广州</label><label>学历：本科</label><label>英语：四级</label><label>生肖：兔</label><label>星座：狮子</label><label>职业：前端开发</label>"
+        },
+        {
+            "title" : "专业技能",
+            "content" : "熟练且经常使用的：<br />　　HTML、CSS、JAVASCRIPT<br />　　PHP、JAVA<br />　　MYSQL<br />　　NGINX、APACHE<br />　　PHOTOSHOP、INTELLIJ IDEA<br />　　NETBEANS、ECLIPSE<br />　　PHONEGAP、YII、JQUERY、DWZ<br />　　SVN、GIT<br /><br />熟悉且偶尔接触的：<br />　　LINUX<br />　　FLASH、CORELDRAW、ILLUSTRATOR<br />　　THINKPHP"
+        },
+        {
+            "title" : "人生理想",
+            "content" : "房子（0/1）<br />车子（0/1）<br />妻子（1/1）<br />孩子（1/2）<br />与家人住在一起（0/1）<br />祖屋重建（0/1）<br />供父母到美国和加拿大旅游（0/2）"
+        }
+    ]
+}
